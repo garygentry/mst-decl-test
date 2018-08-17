@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "ES5",
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "declaration": true,
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules/",
+        "./*/dist/**",
+    ]
+}

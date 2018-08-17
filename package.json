@@ -1,0 +1,23 @@
+{
+  "name": "mts-decl-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf -- dist",
+    "test": "jest --forceExit --no-cache",
+    "lint": "tslint -c ../../tslint.json \"src/**/*.ts\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "*",
+    "mobx": "^5.0.3",
+    "mobx-state-tree": "3.1.1"
+  },
+  "devDependencies": {
+    "node": "^9.11.0",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.0.1"
+  }
+}
